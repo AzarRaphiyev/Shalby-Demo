@@ -343,18 +343,21 @@ h2{
 
 .section6 div{
     display: flex;
+    flex-direction:column ;
     justify-content: space-around;
     align-items: center;
+    gap: 15px;
     
     img{
-        width: 4%;
+        width: 30%;
     }
 }
 .section7{
     background-color: #F5F5F5;
     padding: 60px 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    text-align: center;
     align-items: center;
     justify-content: center;
     gap: 15%;
@@ -370,7 +373,8 @@ footer{
     background-color: #0E1015;
     padding: 70px 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    gap: 20px;
     justify-content: space-around;
     color: #fff;
     p{
@@ -379,6 +383,8 @@ footer{
     }
     div{
         display: flex;
+        flex-direction: row;
+        
         justify-content: center;
         gap: 10px;
     }
@@ -483,6 +489,34 @@ footer div a:hover{
         width: 100%;
         height: 100%;
     }
-    
+    .section6 div{
+        display: flex;
+        flex-direction:row ;
+        justify-content: space-around;
+        align-items: center;
+    gap: 15px;
+    img{
+        width: 10%;
+    }}
 
+    .section7{
+        background-color: #F5F5F5;
+        padding: 60px 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 15%;
+        p{
+            font-size: 1.5em;
+            letter-spacing: 1px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 100;
+        }
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 }
